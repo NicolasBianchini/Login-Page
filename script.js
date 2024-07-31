@@ -15,3 +15,7 @@ const passwordInput = document.getElementById('password');
                 eyeIcon.classList.add('fa-eye-slash');
             }
         });
+
+        document.getElementById('submit').addEventListener('click', function() {
+            window.location.href = 'https://nicolasbianchini.github.io/Logon-Page/';
+        });
